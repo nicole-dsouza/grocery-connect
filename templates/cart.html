@@ -1,0 +1,188 @@
+<div class="modal fade" id="checkout-success" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title" id="modal-title-notification">Order Complete!</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="py-3 text-center">
+                    <i class="fas fa-shipping-fast fa-3x"></i>
+                    <h4 class="heading mt-4 mb-5">Your order is on its way!</h4>
+                    <div class="text-left">
+                        <p>Dear {{ user_name }},</p>
+                        <p>Your order worth ${{ total_cost | number: 2 }} should arrive at {{user_address}},
+                            {{user_city}}
+                            within 2-3 business days.</p>
+                        <p>Thanks for shopping with us!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary ml-auto" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="section section-sm cart-container">
+    <div class="container-fluid">
+
+        <!-- empty cart -->
+        <div class="card col-md-4 mx-auto shadow border-0 text-center" ng-hide="cart_count > 0">
+            <div class="card-body py-5">
+                <div class="icon icon-shape icon-shape-success rounded-circle mb-4">
+                    <i class="fa fa-shopping-basket"></i>
+                </div>
+                <h6 class="text-success">Your shopping cart is empty</h6>
+                <p class="description mt-3">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut blandit
+                </p>
+                <a href="#shopping" class="btn btn-success mt-4">Shop Now</a>
+            </div>
+        </div>
+
+        <!-- normal cart -->
+
+        <div class="row" ng-show="cart_count > 0">
+            <div class="col-md-8">
+                <div class="card">
+                    <table class="table table-hover shopping-cart-wrap">
+                        <thead class="text-muted">
+                            <tr>
+                                <th scope="col">Product</th>
+                                <th scope="col">Quantity</th>
+                                <th scope="col">Price</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr ng-repeat="item in shopping_cart">
+                                <td>
+                                    <figure class="media">
+                                        <div class="img-wrap d-flex align-items-center">
+                                            <img src="{{item.imagelink}}" class="img-fluid">
+                                        </div>
+                                        <figcaption class="media-body">
+                                            <h6 class="title text-truncate">{{item.name}}</h6>
+                                        </figcaption>
+                                    </figure>
+                                </td>
+                                <td>
+                                    <dl class="dlist-inline">
+                                        <ul class="pagination">
+                                            <li class="page-item"
+                                                ng-click="editQty('cart-page', 'subtract', item.name)">
+                                                <a class="page-link"><i class="fas fa-minus"></i></a>
+                                            </li>
+                                            <li class="page-item active">
+                                                <input class="page-link" value="{{item.quantity}}">
+                                            </li>
+                                            <li class="page-item" ng-click="editQty('cart-page', 'add', item.name)">
+                                                <a class="page-link"><i class="fas fa-plus"></i></a>
+                                            </li>
+                                        </ul>
+                                    </dl> <!-- item-property .// -->
+                                </td>
+                                <td>
+                                    <div class="price-wrap">
+                                        <var
+                                            class="price text-primary">${{(item.price * item.quantity) | number: 2 }}</var>
+                                        <small class="text-muted">(${{item.price | number: 2 }} each)</small>
+                                    </div> <!-- price-wrap .// -->
+                                </td>
+                                <td>
+                                    <a href="" class="btn btn-outline-danger" ng-click="deleteItem(item.name)">
+                                        <i class="far fa-trash-alt"></i>
+                                    </a>
+                                </td>
+                            </tr>
+                            <!-- totals column -->
+                            <tr class="cost-column">
+                                <td colspan="2">
+                                    <h6 class="title text-truncate">Subtotal</h6>
+                                    <h6 class="title text-truncate">Shipping Cost</h6>
+                                    <h6 class="title text-truncate">10% Tax</h6>
+                                </td>
+                                <td colspan="2">
+                                    <div class="price-wrap">
+                                        <var class="price text-primary">${{ subtotal | number: 2 }}</var>
+                                        <var class="price text-primary">${{ shipping_cost | number: 2 }}</var>
+                                        <var class="price text-primary">${{ tax | number: 2 }}</var>
+                                    </div> <!-- price-wrap .// -->
+                                </td>
+                            </tr>
+                            <tr class="total-cost">
+                                <td colspan="2">
+                                    <h6 class="title text-truncate">Total Cost</h6>
+                                </td>
+                                <td colspan="2">
+                                    <div class="price-wrap">
+                                        <var class="price text-primary">${{ total_cost | number: 2 }}</var>
+                                    </div> <!-- price-wrap .// -->
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div> <!-- card.// -->
+            </div>
+            <div class="col-md-4 checkout-form">
+                <div class="card bg-secondary shadow border-0">
+                    <div class="card-body px-lg-5 py-lg-5">
+                        <div class="text-center text-muted mb-4">
+                            <h4>Shipping Details</h4>
+                        </div>
+                        <form role="form">
+                            <div class="form-group mb-3">
+                                <div class="input-group input-group-alternative">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-user-alt"></i></span>
+                                    </div>
+                                    <input class="form-control" placeholder="Name" type="text" id="checkout_name">
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <div class="input-group input-group-alternative">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-map-marker-alt"></i></span>
+                                    </div>
+                                    <input class="form-control" placeholder="Address" type="text" id="checkout_address">
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <div class="input-group input-group-alternative">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-map-marked-alt"></i></span>
+                                    </div>
+                                    <input class="form-control" placeholder="City" type="text" id="checkout_city">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group input-group-alternative">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text"><i class="fas fa-phone"></i></span>
+                                    </div>
+                                    <input class="form-control" placeholder="Phone Number" type="text"
+                                        id="checkout_phone">
+                                </div>
+                            </div>
+                            <div class="text-danger d-none validation-message">
+                                Please check the fields highlighted above
+                            </div>
+                            <div class="text-center">
+                                <button type="button" class="btn btn-primary my-4 btn-block" ng-click="checkout()">
+                                    <i class="far fa-credit-card mr-2"></i>
+                                    <span class="nav-link-inner--text">Checkout</span>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>

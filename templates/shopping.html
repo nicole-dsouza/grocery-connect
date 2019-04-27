@@ -1,0 +1,172 @@
+<!-- controls bar -->
+<section class="section section-sm controls-bar">
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-body">
+                <div class="row d-flex justify-content-between no-gutters">
+                    <span>Showing {{ displayed_products }} of {{ number_of_products }} items in {{ selected_category }}
+                    </span>
+                    <div>
+                        <!-- in stock -->
+                        <div class="custom-control custom-checkbox d-inline mr-3">
+                            <input type="checkbox" class="custom-control-input" id="in-stock"
+                                ng-click="loadProducts('in-stock')">
+                            <label class="custom-control-label" for="in-stock">In Stock Only</label>
+                        </div>
+
+                        <!-- sort by dropdown -->
+                        <div class="dropdown show d-inline">
+                            <a class="dropdown-toggle" href="" role="button" id="dropdownMenuLink"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Sort By: None
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <a class="dropdown-item dropdown-item-active" href="" ng-click="sortBy('none')">
+                                    <i class="far fa-dot-circle"></i>
+                                    <span class="sort-type">None</span>
+                                </a>
+                                <a class="dropdown-item" href="" ng-click="sortBy('price')">
+                                    <i class="far fa-circle"></i>
+                                    <span class="sort-type">Price</span>
+                                </a>
+                                <a class="dropdown-item" href="" ng-click="sortBy('alphabetical')">
+                                    <i class="far fa-circle"></i>
+                                    <span class="sort-type">Alphabetical</span>
+                                </a>
+                                <a class="dropdown-item" href="" ng-click="sortBy('rating')">
+                                    <i class="far fa-circle"></i>
+                                    <span class="sort-type">Rating</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div> <!-- row.// -->
+        </div> <!-- card-body .// -->
+    </div> <!-- card.// -->
+</section>
+<!-- end / controls bar -->
+
+<!-- category menu -->
+<section class="section section-sm category-menu">
+    <div class="container-fluid">
+        <div class="row">
+            <aside class="col-md-3">
+                <div class="card card-filter">
+                    <article class="card-group-item">
+                        <header class="card-header">
+                            <h6 class="title">Product Categories</h6>
+                        </header>
+                        <div style="" class="filter-content collapse show" id="collapse22">
+                            <div class="card-body">
+                                <ul class="list-unstyled list-lg">
+
+                                    <div ng-repeat="category in products" class="category-group">
+                                        <li class="category-item">
+                                            {{category.category}}
+                                        </li>
+                                        <li class="sub-item d-none" ng-repeat="subcategory in category.subcategories">
+                                            <a href="" ng-click="loadProducts(subcategory.name)">
+                                                <i class="fa fa-angle-right"></i>
+                                                <span class="subcat-name">{{subcategory.name}}</span>
+                                            </a>
+                                        </li>
+                                    </div>
+
+                                </ul>
+                            </div> <!-- card-body.// -->
+                        </div> <!-- collapse .// -->
+                    </article> <!-- card-group-item.// -->
+                </div> <!-- card.// -->
+            </aside> <!-- col.// -->
+            <main class="col-md-9">
+
+                <!-- product grid -->
+                <article class="card card-product" ng-repeat="item in product_items">
+                    <div class="card-body">
+                        <div class="row">
+                            <aside class="col-sm-3">
+                                <div class="img-wrap img-fluid" ng-click="productPage(item.name)">
+                                    <a>
+                                        <img src={{item.imagelink}}>
+                                    </a>
+                                </div>
+                            </aside> <!-- col.// -->
+                            <article class="col-sm-6 product-info">
+                                <h4 class="title" ng-click="productPage(item.name)">
+                                    <a>{{item.name}}</a>
+                                </h4>
+                                <div class="rating-wrap mb-2">
+                                    <ul class="rating-stars">
+                                        <li class="stars-active rating-{{item.rating}}">
+                                            <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </li>
+                                        <li>
+                                            <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </li>
+                                    </ul>
+                                    <div class="label-rating">{{item.stock}} in stock</div>
+                                </div> <!-- rating-wrap.// -->
+                                <p>{{item.description}}</p>
+                            </article> <!-- col.// -->
+                            <aside class="col-sm-3 border-left">
+                                <div class="action-wrap">
+                                    <div class="price-wrap h4">
+                                        <span class="price">${{item.price}}</span>
+                                    </div> <!-- info-price-detail // -->
+                                    <p class="text-success m-0">Free shipping</p>
+                                    <br>
+                                    <a href="" class="btn btn-primary btn-icon btn-add-cart"
+                                        ng-click="addToCart('shopping-page', item.name)">
+                                        <span class="btn-inner--icon">
+                                            <i class="fa fa-plus mr-2"></i>
+                                        </span>
+                                        <span class="nav-link-inner--text">Add to Cart</span>
+                                    </a>
+                                </div> <!-- action-wrap.// -->
+                            </aside> <!-- col.// -->
+                        </div> <!-- row.// -->
+                    </div> <!-- card-body .// -->
+                </article>
+                <!-- end / product grid -->
+
+            </main> <!-- col.// -->
+        </div>
+    </div>
+</section>
+<!-- end / category menu -->
+
+<script>
+
+    $(document).ready(function () {
+
+        // show subcategory list when parent is clicked
+        $('body').on('click', '.category-item', function () {
+            $(".category-group").find(".sub-item").addClass("d-none");
+            var subitems = $(this).parent(".category-group").find(".sub-item");
+            subitems.removeClass("d-none");
+        });
+
+        // sort by dropdown
+        $('body').on('click', '.dropdown-item', function () {
+
+            // clear previous selected
+            $(".dropdown-item").removeClass("dropdown-item-active");
+            $(".dropdown-item").find(".fa-dot-circle").removeClass("fa-dot-circle").addClass("fa-circle");
+
+            // select clicked item
+            $(this).addClass("dropdown-item-active");
+            $(this).find(".fa-circle").removeClass("fa-circle").addClass("fa-dot-circle");
+            var currentSort = $(this).find(".sort-type").html();
+            $("#dropdownMenuLink").html("Sort By: " + currentSort);
+
+        });
+
+    });
+
+</script>

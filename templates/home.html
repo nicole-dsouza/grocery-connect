@@ -1,0 +1,100 @@
+<!-- product slider -->
+<section class="slider-container">
+    <div class="row justify-content-end header-row">
+        <div class="col">
+            <div class="row no-gutters">
+                <div class="icon icon-shape bg-gradient-primary rounded-circle text-white">
+                    <i class="far fa-star"></i>
+                </div>
+                <h3 class="ml-3">Deal of the Day</h3>
+            </div>
+        </div>
+        <div class="col text-right d-flex justify-content-end align-items-center">
+            <span class="mr-2">Toggle Slideshow</span>
+            <label class="custom-toggle toggle-slider">
+                <input type="checkbox" checked="" id="toggle-slide">
+                <span class="custom-toggle-slider rounded-circle"></span>
+            </label>
+        </div>
+    </div>
+    <div class="product-slider container-wide">
+        <div class="col-md-3" ng-repeat="item in slider_items" ng-click="productPage(item.name)">
+            <figure class="card card-sm card-product">
+                <div class="img-wrap d-flex align-items-center">
+                    <img src="{{ item.imagelink }}">
+                </div>
+                <figcaption class="info-wrap text-center">
+                    <h6 class="title text-truncate">
+                        <a href="">{{ item.name }}</a>
+                    </h6>
+                </figcaption>
+            </figure> <!-- card // -->
+        </div> <!-- col // -->
+    </div>
+</section>
+
+<!-- welcome block -->
+<section class="section welcome-block">
+    <div class="container-fluid">
+        <div class="card bg-gradient-success shadow-lg border-0">
+            <div class="p-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <h3 class="text-white">We make online shopping easier</h3>
+                        <p class="lead text-white mt-3">
+                            Welcome lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sodales lobortis urna,
+                            vel eleifend mi pretium vitae. Vestibulum maximus.
+                        </p>
+                    </div>
+                    <div class="col-lg-3 ml-lg-auto">
+                        <a href="#shopping" class="btn btn-lg btn-block btn-white">
+                            <span class="btn-inner--icon">
+                                <i class="fa fa-shopping-basket mr-2"></i>
+                            </span>
+                            <span>Shop All</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end / welcome block -->
+
+<script>
+
+    $(document).ready(function () {
+
+        // product slider
+        function loadSlider() {
+            if (sliderDataLoad === true) {
+                $('.product-slider').slick({
+                    infinite: true,
+                    slidesToShow: 5,
+                    slidesToScroll: 1,
+                    dots: false,
+                    speed: 300, // separate, not related to seconds
+                    autoplay: true,
+                    autoplaySpeed: 3000, // 3 seconds
+                });
+            } else {
+                setTimeout(loadSlider, 1000);
+            }
+        }
+
+        loadSlider();
+
+        // toggle function
+        $('#toggle-slide').change(function () {
+            if ($(this).is(":checked")) {
+                $('.product-slider').slick('slickPlay');
+                console.log("checked");
+            } else {
+                $('.product-slider').slick('slickPause');
+                console.log("unchecked");
+            }
+        });
+
+    });
+
+</script>

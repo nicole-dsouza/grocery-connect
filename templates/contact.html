@@ -1,0 +1,146 @@
+<div class="modal fade" id="contact-success" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h6 class="modal-title" id="modal-title-notification">Message Received!</h6>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="py-3 text-center">
+                    <div class="text-left">
+                        <p>Dear {{ user_name }},</p>
+                        <p>We will get in touch with you shortly to discuss your message regarding {{ user_subject }}.
+                        </p>
+                        <p>Thanks for contacting us!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary ml-auto" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-gradient-success">
+    <section class="section pb-0">
+        <div class="container">
+            <div class="row row-grid align-items-center">
+                <div class="col-md-6 order-lg-2 ml-lg-auto">
+                    <div class="position-relative pl-md-5">
+                        <img src="assets/img/contact-bg.svg" class="img-center img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-6 order-lg-1">
+                    <div class="d-flex px-3">
+                        <div>
+                            <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                <i class="far fa-paper-plane text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="pl-4">
+                            <h4 class="display-3 text-white">Contact Us</h4>
+                            <p class="text-white">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc at leo quis purus placerat
+                                blandit. Cras malesuada purus.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card shadow shadow-lg--hover mt-5">
+                        <div class="card-body">
+                            <div class="d-flex px-3 mb-4">
+                                <div>
+                                    <div class="icon icon-shape bg-gradient-warning rounded-circle text-white">
+                                        <i class="fas fa-phone"></i>
+                                    </div>
+                                </div>
+                                <div class="pl-4">
+                                    <h5 class="title text-warning">Phone</h5>
+                                    <p>+1 530 111 1111</p>
+                                </div>
+                            </div>
+                            <div class="d-flex px-3">
+                                <div>
+                                    <div class="icon icon-shape bg-gradient-success rounded-circle text-white">
+                                        <i class="fas fa-envelope-open-text"></i>
+                                    </div>
+                                </div>
+                                <div class="pl-4">
+                                    <h5 class="title text-success">Email</h5>
+                                    <p class="m-0">feedback@groceryconnect.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-lg contact-background">
+        <!-- SVG separator -->
+        <div class="separator separator-bottom separator-skew zindex-100">
+            <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1"
+                xmlns="http://www.w3.org/2000/svg">
+                <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
+            </svg>
+        </div>
+    </section>
+</div>
+<section class="section section-lg pt-lg-0 section-contact-us">
+    <div class="container">
+        <div class="row justify-content-center mt--300">
+            <div class="col-lg-8">
+                <div class="card bg-gradient-secondary shadow">
+                    <div class="card-body p-lg-5">
+                        <h4 class="mb-1">Contact Us</h4>
+                        <p class="mt-0">
+                            We respond to every message within 5 business days
+                        </p>
+                        <div class="form-group mt-5">
+                            <div class="input-group input-group-alternative">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="fas fa-user-alt"></i></span>
+                                </div>
+                                <input class="form-control" placeholder="Name" type="text" id="contact_name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="input-group input-group-alternative">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text"><i class="far fa-envelope"></i></span>
+                                </div>
+                                <input class="form-control" placeholder="Email" type="email" id="contact_email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-control input-group-alternative" id="contact_subject">
+                                <option value="0" disabled selected hidden>Subject</option>
+                                <option>General Inquiries</option>
+                                <option>Stock Availability</option>
+                                <option>Career Opportunities</option>
+                                <option>General Feedback</option>
+                                <option>Customer Complaint</option>
+                            </select>
+                        </div>
+                        <div class="form-group mb-4">
+                            <textarea class="form-control form-control-alternative" name="name" rows="4" cols="80"
+                                placeholder="Type a message..." id="contact_message"></textarea>
+                        </div>
+                        <div class="text-danger d-none validation-message">
+                            Please check the fields highlighted above
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-default btn-round btn-block btn-lg"
+                                ng-click="contactSubmit()">
+                                Send Message
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

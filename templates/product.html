@@ -1,0 +1,78 @@
+<section class="section section-sm product-block">
+    <div class="container-fluid">
+        <div class="card">
+            <div class="row no-gutters">
+                <aside class="col-sm-5 border-right">
+                    <article class="gallery-wrap">
+                        <a href="" class="btn btn-info back-button" ng-click="goBack()">
+                            <i class="fas fa-chevron-left mr-2"></i>
+                            Back
+                        </a>
+                        <div class="img-big-wrap d-flex align-items-center">
+                            <div><img src="{{ image_url }}"></div>
+                        </div>
+                    </article>
+                </aside>
+                <aside class="col-sm-7">
+                    <article class="p-5">
+                        <h3 class="title mb-3">{{ product_name }}</h3>
+                        <div class="mb-3">
+                            <var class="price h3 text-primary">
+                                <span class="currency">$</span><span class="num">{{ product_price }}</span>
+                            </var>
+                        </div> <!-- price-detail-wrap .// -->
+                        <dl>
+                            <dt>Description</dt>
+                            <dd>
+                                <p>{{ description }}</p>
+                            </dd>
+                        </dl>
+                        <div class="rating-wrap">
+                            <ul class="rating-stars">
+                                <li class="stars-active rating-{{product_rating}}">
+                                    <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                                <li>
+                                    <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </li>
+                            </ul>
+                            <div class="label-rating">{{ stock_val }} in stock</div>
+                        </div> <!-- rating-wrap.// -->
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <dl class="dlist-inline">
+                                    <ul class="pagination">
+                                        <li class="page-item"><span class="">Quantity:</span></li>
+                                        <li class="page-item" ng-click="editQty('product-page', 'subtract')">
+                                            <a class="page-link"><i class="fas fa-minus"></i></a>
+                                        </li>
+                                        <li class="page-item active">
+                                            <input class="page-link" value="1" id="product-page-quantity">
+                                        </li>
+                                        <li class="page-item" ng-click="editQty('product-page', 'add')">
+                                            <a class="page-link"><i class="fas fa-plus"></i></a>
+                                        </li>
+                                    </ul>
+                                </dl> <!-- item-property .// -->
+                            </div> <!-- col.// -->
+                            <div class="col-sm-7 text-right">
+                                <a href="" class="btn btn-primary btn-icon"
+                                    ng-click="addToCart('product-page', product_name)">
+                                    <span class="btn-inner--icon">
+                                        <i class="fa fa-plus mr-2"></i>
+                                    </span>
+                                    <span class="nav-link-inner--text">Add to Cart</span>
+                                </a>
+                            </div> <!-- col.// -->
+                        </div> <!-- row.// -->
+                    </article> <!-- card-body.// -->
+                </aside> <!-- col.// -->
+            </div> <!-- row.// -->
+        </div> <!-- card.// -->
+    </div>
+</section>
