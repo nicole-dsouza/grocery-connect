@@ -1,0 +1,1032 @@
+[
+    {
+        "category": "Household and Beauty",
+        "subcategories": [
+            {
+                "name": "Baby Care",
+                "items": [
+                    {
+                        "name": "Johnson's Baby Cologne, Baby Fragrance for Delicate Skin, 6.8 fl. oz",
+                        "description": "Johnson's baby cologne has a gentle, fresh fragrance with a pleasant combination of floral and citrus hints.",
+                        "price": 2.92,
+                        "imagelink": "assets/img/products/baby-care-1.jpeg",
+                        "rating": "4",
+                        "stock": "30",
+                        "category": "Household and Beauty",
+                        "subcategory": "Baby Care"
+                    },
+                    {
+                        "name": "(3 pack) Johnson's Baby Cologne for Delicate Skin, 6.8 fl. oz",
+                        "description": "Johnson's baby cologne has a gentle, fresh fragrance with a pleasant combination of floral and citrus hints.",
+                        "price": 8.35,
+                        "imagelink": "assets/img/products/baby-care-2.png",
+                        "rating": "5",
+                        "stock": "15",
+                        "category": "Household and Beauty",
+                        "subcategory": "Baby Care"
+                    },
+                    {
+                        "name": "Parent's Choice Tear-free Calming Night-Time Baby Bath, 28 fl. oz",
+                        "description": "Make bath time a pleasant and safe experience for your baby with Parent's Choice Tear Free Calming Night-Time Baby Bath.",
+                        "price": 1.78,
+                        "imagelink": "assets/img/products/baby-care-3.jpeg",
+                        "rating": "5",
+                        "stock": "55",
+                        "category": "Household and Beauty",
+                        "subcategory": "Baby Care"
+                    },
+                    {
+                        "name": "Equate Baby Hypoallergenic Baby Lotion, 27 fl. oz",
+                        "description": "Keep your little one's skin soft and hydrated with Equate Baby Hypoallergenic Baby Lotion.",
+                        "price": 2.98,
+                        "imagelink": "assets/img/products/baby-care-4.jpeg",
+                        "rating": "5",
+                        "stock": "55",
+                        "category": "Household and Beauty",
+                        "subcategory": "Baby Care"
+                    },
+                    {
+                        "name": "(2 pack) Equate Baby Oil, Lavender, 20 fl. oz",
+                        "description": "Pamper your skin with the Equate Lavender Baby Oil (20 oz).",
+                        "price": 4.94,
+                        "imagelink": "assets/img/products/baby-care-5.jpeg",
+                        "rating": "5",
+                        "stock": "40",
+                        "category": "Household and Beauty",
+                        "subcategory": "Baby Care"
+                    },
+                    {
+                        "name": "Equate Baby Hypoallergenic Baby Oil, 20 fl. oz",
+                        "description": "Equate Baby Hypoallergenic Baby Oil seals in moisture and leaves your skin feeling touchably soft.",
+                        "price": 2.47,
+                        "imagelink": "assets/img/products/baby-care-6.jpeg",
+                        "rating": "3",
+                        "stock": "18",
+                        "category": "Household and Beauty",
+                        "subcategory": "Baby Care"
+                    },
+                    {
+                        "name": "Nature's Baby Organics Fragrance Free Soothing Stick, 0.63 oz",
+                        "description": "Use Nature's Baby Organics Fragrance Free Soothing Stick to treat minor cuts, scrapes, burns and any dry patches.",
+                        "price": 7.61,
+                        "imagelink": "assets/img/products/baby-care-7.jpeg",
+                        "rating": "4",
+                        "stock": "100",
+                        "category": "Household and Beauty",
+                        "subcategory": "Baby Care"
+                    },
+                    {
+                        "name": "Baby Magic Calming Baby Lotion Lavender & Chamomile, 16.5 fl. oz",
+                        "description": "Baby Magic Lavender and Chamomile Calming Baby Lotion is a rich and creamy baby lotion enhanced with Vitamins and Aloe formulated with real Lavender and Chamomile extracts to calm your baby.",
+                        "price": 3.34,
+                        "imagelink": "assets/img/products/baby-care-8.jpeg",
+                        "rating": "4",
+                        "stock": "70",
+                        "category": "Household and Beauty",
+                        "subcategory": "Baby Care"
+                    },
+                    {
+                        "name": "Aveeno Baby Comfort Moisturizing Lotion, 18 fl. oz",
+                        "description": "Aveeno Baby Calming Comfort Lotion with relaxing scents of lavender and vanilla helps heal and protect baby's delicate skin and moisturizes for 24 hours.",
+                        "price": 8.97,
+                        "imagelink": "assets/img/products/baby-care-9.jpeg",
+                        "rating": "5",
+                        "stock": "10",
+                        "category": "Household and Beauty",
+                        "subcategory": "Baby Care"
+                    }
+                ]
+            },
+            {
+                "name": "Pharmacy",
+                "items": [
+                    {
+                        "name": "Ensure Clear Nutrition Drink, Blueberry Pomegranate, 8 count",
+                        "description": "From the #1 doctor-recommended brand, Ensure Clear Nutrition Drink provides daily nutrition with 15 vitamins and minerals, 8g protein, and 0g of fat.",
+                        "price": 13.97,
+                        "imagelink": "assets/img/products/pharmacy-1.jpeg",
+                        "rating": "4",
+                        "stock": "58",
+                        "category": "Household and Beauty",
+                        "subcategory": "Pharmacy"
+                    },
+                    {
+                        "name": "Boost Optimum Nutritional Drink Rich Chocolate, 4 count",
+                        "description": "It’s important to fuel your body with good nutrition-especially when it comes to protein. The 5-in-1 Advanced Nutrition formula of BOOST Optimum Drink contains a blend of protein, vitamins and minerals to support muscle and bone health, vision, energy and normal immune function.",
+                        "price": 7.50,
+                        "imagelink": "assets/img/products/pharmacy-2.jpeg",
+                        "rating": "5",
+                        "stock": "17",
+                        "category": "Household and Beauty",
+                        "subcategory": "Pharmacy"
+                    },
+                    {
+                        "name": "Equate 24 Hour Non-Drowsy Allergy Relief Tablets, 10 mg, 300 count",
+                        "description": "Help relieve your allergy symptoms with Equate 24-Hour Non-Drowsy Allergy Relief Loratadine Tablets.",
+                        "price": 19.18,
+                        "imagelink": "assets/img/products/pharmacy-3.jpeg",
+                        "rating": "5",
+                        "stock": "90",
+                        "category": "Household and Beauty",
+                        "subcategory": "Pharmacy"
+                    },
+                    {
+                        "name": "Bayer Color Microlet Lancets, 100 Ct",
+                        "description": "Bayer Color Microlet Lancets 100 count make it easy to keep track of your blood sugar testing.",
+                        "price": 10.12,
+                        "imagelink": "assets/img/products/pharmacy-4.jpeg",
+                        "rating": "5",
+                        "stock": "10",
+                        "category": "Household and Beauty",
+                        "subcategory": "Pharmacy"
+                    },
+                    {
+                        "name": "Contour Next Blood Glucose Test Strips, 70 Ct",
+                        "description": "Contour Next blood glucose test strips offer a simple solution for your testing needs with proven accuracy, fast test time, and small blood sample.",
+                        "price": 26.58,
+                        "imagelink": "assets/img/products/pharmacy-5.jpeg",
+                        "rating": "2",
+                        "stock": "17",
+                        "category": "Household and Beauty",
+                        "subcategory": "Pharmacy"
+                    }
+                ]
+            },
+            {
+                "name": "Household Supplies",
+                "items": [
+                    {
+                        "name": "Clorox Disinfecting Wipes, 300 count value pack",
+                        "description": "Clorox Disinfecting Wipes is an all-purpose wipe that cleans and disinfects with antibacterial power killing 99.9% of viruses and bacteria.",
+                        "price": 12.98,
+                        "imagelink": "assets/img/products/household-supplies-1.png",
+                        "rating": "5",
+                        "stock": "12",
+                        "category": "Household and Beauty",
+                        "subcategory": "Household Supplies"
+                    },
+                    {
+                        "name": "Fabuloso All Purpose Cleaner, Lavender, 128 fl. oz",
+                        "description": "Fabuloso Multipurpose Cleaner leaves a fresh scent that lasts.",
+                        "price": 5.78,
+                        "imagelink": "assets/img/products/household-supplies-2.png",
+                        "rating": "4",
+                        "stock": "45",
+                        "category": "Household and Beauty",
+                        "subcategory": "Household Supplies"
+                    },
+                    {
+                        "name": "Lysol Disinfecting Wipes, Lemon & Lime Blossom, 105ct (3X35ct)",
+                        "description": "Lysol Disinfecting Wipes can be used as a convenient way to clean and disinfect your household surfaces.",
+                        "price": 5.77,
+                        "imagelink": "assets/img/products/household-supplies-3.jpeg",
+                        "rating": "5",
+                        "stock": "5",
+                        "category": "Household and Beauty",
+                        "subcategory": "Household Supplies"
+                    },
+                    {
+                        "name": "Household Furniture Paint Brush, 10cm Width",
+                        "description": "Made of plastic, portable and easy to use. Great for painting on furniture and other large surfaces.",
+                        "price": 6.59,
+                        "imagelink": "assets/img/products/household-supplies-4.jpeg",
+                        "rating": "2",
+                        "stock": "0",
+                        "category": "Household and Beauty",
+                        "subcategory": "Household Supplies"
+                    },
+                    {
+                        "name": "(3 pack) Household Furniture Paint Brushes, 5cm Width",
+                        "description": "Made of plastic, portable and easy to use. Great for painting on furniture and other large surfaces.",
+                        "price": 8.00,
+                        "imagelink": "assets/img/products/household-supplies-5.jpeg",
+                        "rating": "4",
+                        "stock": "10",
+                        "category": "Household and Beauty",
+                        "subcategory": "Household Supplies"
+                    },
+                    {
+                        "name": "iLH Mallroom Gold Stationery Clip",
+                        "description": "Thick solid, beautiful and practical, can be used as bill folder, sealing clip and so on.",
+                        "price": 9.17,
+                        "imagelink": "assets/img/products/household-supplies-6.jpeg",
+                        "rating": "2",
+                        "stock": "0",
+                        "category": "Household and Beauty",
+                        "subcategory": "Household Supplies"
+                    },
+                    {
+                        "name": "Silver Bakery Tong, 9.8' Length",
+                        "description": "Made of stainless steel. Great for party, buffet or home use, multifunctional.",
+                        "price": 3.99,
+                        "imagelink": "assets/img/products/household-supplies-7.jpeg",
+                        "rating": "2",
+                        "stock": "40",
+                        "category": "Household and Beauty",
+                        "subcategory": "Household Supplies"
+                    },
+                    {
+                        "name": "Pineapple Placemat Table Decoration, 1 piece",
+                        "description": "Made of high-quality materials with heat insulation and anti-scalding.",
+                        "price": 6.49,
+                        "imagelink": "assets/img/products/household-supplies-8.jpeg",
+                        "rating": "4",
+                        "stock": "40",
+                        "category": "Household and Beauty",
+                        "subcategory": "Household Supplies"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Pantry Items",
+        "subcategories": [
+            {
+                "name": "Beverages",
+                "items": [
+                    {
+                        "name": "(24 bottles) Tropicana 3 Flavor Fruit Blend Variety Pack, 10 fl. oz",
+                        "description": "Now you can enjoy the refreshing taste of Tropicana’s Cranberry, Grapefruit and Orange Juice anytime, anywhere with these convenient 10 oz. bottles.",
+                        "price": 15.98,
+                        "imagelink": "assets/img/products/beverages-1.jpeg",
+                        "rating": "4",
+                        "stock": "250",
+                        "category": "Pantry Items",
+                        "subcategory": "Beverages"
+                    },
+                    {
+                        "name": "Apple & Eve Juice Box Variety Pack, 6.75 fl. oz, 32 count",
+                        "description": "32 count variety pack - 16 Apple Juice, 8 Very Berry, 8 Fruit Punch. No sugar added, contains Vitamin C. No artificial colors, flavors or perservatives.",
+                        "price": 9.96,
+                        "imagelink": "assets/img/products/beverages-2.jpeg",
+                        "rating": "4",
+                        "stock": "300",
+                        "category": "Pantry Items",
+                        "subcategory": "Beverages"
+                    },
+                    {
+                        "name": "Fruit of the Earth Aloe Vera Juice, 128 fl. oz",
+                        "description": "Experience purity in every sip of Fruit of the Earth Aloe Vera Juice. Aloe vera juice has a wealth of health benefits, from nourishing the skin and hair to balancing pH levels, improving digestion, liver function and more.",
+                        "price": 6.44,
+                        "imagelink": "assets/img/products/beverages-3.jpeg",
+                        "rating": "4",
+                        "stock": "250",
+                        "category": "Pantry Items",
+                        "subcategory": "Beverages"
+                    },
+                    {
+                        "name": "(2 pack) Great Value 100% Juice, Apple, 96 fl. oz",
+                        "description": "Your next party can be a hit among friends and family when you have a bottle of Great Value 100% Apple Juice in your house.",
+                        "price": 5.99,
+                        "imagelink": "assets/img/products/beverages-4.jpeg",
+                        "rating": "4",
+                        "stock": "150",
+                        "category": "Pantry Items",
+                        "subcategory": "Beverages"
+                    },
+                    {
+                        "name": "Little Hug Fruit Drink Barrels Original Variety Pack, 8 fl. oz, 40 count",
+                        "description": "2g of sugar per bottle, 10 calories per bottle. Good source of vitamin E and 5 B vitamins. Flavors include: fruit punch, blue raspberry, kiwi strawberry, and grape.",
+                        "price": 5.88,
+                        "imagelink": "assets/img/products/beverages-5.jpeg",
+                        "rating": "4",
+                        "stock": "150",
+                        "category": "Pantry Items",
+                        "subcategory": "Beverages"
+                    }
+                ]
+            },
+            {
+                "name": "Canned Food",
+                "items": [
+                    {
+                        "name": "(8 cans) StarKist Chunk Light Tuna in Water, 5 oz",
+                        "description": "Stock up on StarKist Chunk Light Tuna in Water. It can be used for sandwiches, making dips, meals and much more.",
+                        "price": 5.98,
+                        "imagelink": "assets/img/products/canned-food-1.jpeg",
+                        "rating": "4",
+                        "stock": "250",
+                        "category": "Pantry Items",
+                        "subcategory": "Canned Goods"
+                    },
+                    {
+                        "name": "(4 pack) Chef Boyardee Ravioli, 15 oz",
+                        "description": "Chef Boyardee Ravioli is a delicious and convenient meal that is ready to eat in minutes and has delighted families for generations.",
+                        "price": 10.44,
+                        "imagelink": "assets/img/products/canned-food-2.jpeg",
+                        "rating": "4",
+                        "stock": "500",
+                        "category": "Pantry Items",
+                        "subcategory": "Canned Goods"
+                    }
+                ]
+            },
+            {
+                "name": "Cooking and Baking",
+                "items": [
+                    {
+                        "name": "Chosen Foods 100% Pure Avocado Oil 25.3 oz, Non-GMO",
+                        "description": "Cold-pressed and naturally refined, Chosen Foods 100% Pure Avocado Oil is high in heart healthy, monounsaturated fats and antioxidants.",
+                        "price": 10.98,
+                        "imagelink": "assets/img/products/cooking-and-baking-1.jpeg",
+                        "rating": "4",
+                        "stock": "350",
+                        "category": "Pantry Items",
+                        "subcategory": "Cooking and Baking"
+                    },
+                    {
+                        "name": "(2 pack) Morton Iodized Table Salt, 26 oz",
+                        "description": "Morton Iodized Table Salt is an all-purpose salt perfect for everything from cooking and baking to filling the shakers on your table. ",
+                        "price": 3.98,
+                        "imagelink": "assets/img/products/cooking-and-baking-2.png",
+                        "rating": "4",
+                        "stock": "350",
+                        "category": "Pantry Items",
+                        "subcategory": "Cooking and Baking"
+                    },
+                    {
+                        "name": "(2 pack) PAM Baking Spray, 5 oz",
+                        "description": "PAM Baking Spray combines the no-stick power of PAM with real flour for a baking spray that reaches every nook and cranny.",
+                        "price": 6.58,
+                        "imagelink": "assets/img/products/cooking-and-baking-3.jpeg",
+                        "rating": "4",
+                        "stock": "300",
+                        "category": "Pantry Items",
+                        "subcategory": "Cooking and Baking"
+                    },
+                    {
+                        "name": "Crafty Cooking Kits Magical Unicorn Gelatin Cups Kit, 6 oz",
+                        "description": "The majestic beauty of unicorns is brought to life in these beautifully prepared gelatin cups.",
+                        "price": 4.98,
+                        "imagelink": "assets/img/products/cooking-and-baking-4.jpeg",
+                        "rating": "4",
+                        "stock": "100",
+                        "category": "Pantry Items",
+                        "subcategory": "Cooking and Baking"
+                    },
+                    {
+                        "name": "Crafty Cooking Kits Paw Patrol Cookie Mix",
+                        "description": "Contains cookie mix, ready to use icing, rainbow gumdrops, rainbow nonpareils, icing pen, Paw Patrol marshmallow and paper character pieces.",
+                        "price": 4.98,
+                        "imagelink": "assets/img/products/cooking-and-baking-5.jpeg",
+                        "rating": "4",
+                        "stock": "200",
+                        "category": "Pantry Items",
+                        "subcategory": "Cooking and Baking"
+                    },
+                    {
+                        "name": "Crafty Cooking Kits Layered S'mores Pudding Cups Kit, 9 oz",
+                        "description": "This deliciously layered dessert features creamy chocolate pudding, sweet graham cracker crumbles, and gooey marshmallows all together in one ultimate treat.",
+                        "price": 4.98,
+                        "imagelink": "assets/img/products/cooking-and-baking-6.jpeg",
+                        "rating": "5",
+                        "stock": "400",
+                        "category": "Pantry Items",
+                        "subcategory": "Cooking and Baking"
+                    },
+                    {
+                        "name": "Crafty Cooking Kits Celebration Cake Crispy Rice Kit, 12 oz",
+                        "description": "Topped with sweet vanilla-flavored melting wafers and bright rainbow confetti sprinkles, this cake is anything but ordinary.",
+                        "price": 4.98,
+                        "imagelink": "assets/img/products/cooking-and-baking-7.jpeg",
+                        "rating": "4",
+                        "stock": "300",
+                        "category": "Pantry Items",
+                        "subcategory": "Cooking and Baking"
+                    }
+                ]
+            },
+            {
+                "name": "Pasta and Noodles",
+                "items": [
+                    {
+                        "name": "(4 pack) Great Value Wide Egg Noodles, 16 oz",
+                        "description": "Great Value Wide Egg Noodles are simple and quick to cook and are ideal for a variety of recipes. They are a good source of folic acid and dietary fiber.",
+                        "price": 5.28,
+                        "imagelink": "assets/img/products/pasta-and-noodles-1.jpeg",
+                        "rating": "4",
+                        "stock": "300",
+                        "category": "Pantry Items",
+                        "subcategory": "Pasta and Noodles"
+                    },
+                    {
+                        "name": "(4 pack) No Yolks Extra Broad Egg White Noodles, 12-ounce Bag",
+                        "description": "Made from wheat flour, corn flour and egg whites, No Yolks pasta has no cholesterol, preservatives, or MSG and is a healthier choice for you and your family.",
+                        "price": 6.70,
+                        "imagelink": "assets/img/products/pasta-and-noodles-2.jpeg",
+                        "rating": "4",
+                        "stock": "300",
+                        "category": "Pantry Items",
+                        "subcategory": "Pasta and Noodles"
+                    },
+                    {
+                        "name": "(4 pack) Barilla Pasta Farfalle, 1.0 lb",
+                        "description": "Barilla Pasta is the perfect foundation for a nutritious & delicious meal especially when paired with other healthy foods like olive oil, vegetables, legumes and lean proteins.",
+                        "price": 5.57,
+                        "imagelink": "assets/img/products/pasta-and-noodles-3.jpeg",
+                        "rating": "4",
+                        "stock": "300",
+                        "category": "Pantry Items",
+                        "subcategory": "Pasta and Noodles"
+                    }
+                ]
+            },
+            {
+                "name": "Snacks",
+                "items": [
+                    {
+                        "name": "RXBAR Chocolate Sea Salt Protein Bar, 1.83 oz, 12 count",
+                        "description": "An indulgent combination of 100% pure chocolate spiked with savory sea salt, this protein bar has only 8 whole food ingredients and boasts 12 grams protein, 5 grams of fiber, no gluten, and has zero added sugar.",
+                        "price": 21.98,
+                        "imagelink": "assets/img/products/snacks-1.jpeg",
+                        "rating": "5",
+                        "stock": "200",
+                        "category": "Pantry Items",
+                        "subcategory": "Snacks"
+                    },
+                    {
+                        "name": "Welch's Mixed Fruit Snacks, 0.9 oz, 80 count",
+                        "description": "Natural & artificial flavors. Made with real fruit.",
+                        "price": 12.49,
+                        "imagelink": "assets/img/products/snacks-2.jpeg",
+                        "rating": "5",
+                        "stock": "500",
+                        "category": "Pantry Items",
+                        "subcategory": "Snacks"
+                    },
+                    {
+                        "name": "Cheez-It Baked Original Snack Crackers, 1 oz, 30 count",
+                        "description": "Make snack time more fun with Cheez-It Original Baked Snack Crackers—bite-size cheese crackers that are baked to crispy perfection.",
+                        "price": 9.89,
+                        "imagelink": "assets/img/products/snacks-3.jpeg",
+                        "rating": "5",
+                        "stock": "200",
+                        "category": "Pantry Items",
+                        "subcategory": "Snacks"
+                    },
+                    {
+                        "name": "Cheez-It Gripz Baked Snack Crackers, 0.9 oz, 14 count",
+                        "description": "Cheez-It Gripz Baked Snack Crackers are made with 100 percent real cheese for a savory treat just about any time of the day.",
+                        "price": 4.54,
+                        "imagelink": "assets/img/products/snacks-4.jpeg",
+                        "rating": "5",
+                        "stock": "500",
+                        "category": "Pantry Items",
+                        "subcategory": "Snacks"
+                    },
+                    {
+                        "name": "Snyder's of Hanover Pretzel Lovers Variety Pack, Three Flavors, 36 count",
+                        "description": "Snyder’s of Hanover Pretzel Lovers Variety Pack gives you that delicious crunch for the perfect snack, whether you want the timeless flavor of Sourdough Pretzels, the bold taste of Honey Mustard and Onion Pretzel Pieces, or the crunchy Mini Pretzels everyone knows and loves.",
+                        "price": 11.68,
+                        "imagelink": "assets/img/products/snacks-5.png",
+                        "rating": "5",
+                        "stock": "500",
+                        "category": "Pantry Items",
+                        "subcategory": "Snacks"
+                    },
+                    {
+                        "name": "Nabisco Sweet Treats Variety Cookie Pack, 23.3 oz, 30 count",
+                        "description": "This variety pack includes a mix of Classic Oreo, Golden Oreo and Chips Ahoy! with 2 cookies per pack! Each individually sealed pack is perfectly portioned for lunchboxes, road trips, and more.",
+                        "price": 6.98,
+                        "imagelink": "assets/img/products/snacks-6.jpeg",
+                        "rating": "3",
+                        "stock": "200",
+                        "category": "Pantry Items",
+                        "subcategory": "Snacks"
+                    },
+                    {
+                        "name": "Lance Variety Pack Sandwich Crackers, 20 count",
+                        "description": "Lance Sandwich Crackers Variety Pack includes: ToastChee (cheese crackers with peanut butter filling), Toasty (original crackers with peanut butter filling) and Captain's Wafers Cream Cheese Chive sandwich crackers.",
+                        "price": 5.78,
+                        "imagelink": "assets/img/products/snacks-7.jpeg",
+                        "rating": "5",
+                        "stock": "500",
+                        "category": "Pantry Items",
+                        "subcategory": "Snacks"
+                    },
+                    {
+                        "name": "Frito-Lay Party Mix Variety Pack, 40 count",
+                        "description": "These much loved treats are fun to enjoy at lunch, as an after-school snack, or party refreshment.",
+                        "price": 14.13,
+                        "imagelink": "assets/img/products/snacks-8.jpeg",
+                        "rating": "5",
+                        "stock": "500",
+                        "category": "Pantry Items",
+                        "subcategory": "Snacks"
+                    },
+                    {
+                        "name": "(12 cups) Del Monte Fruit Cup Snacks in Assorted Flavors, 4 oz cups",
+                        "description": "Del Monte No Sugar Added Variety Fruit Snack Cups feature tasty, bite-sized peaches, pears and pineapples packed in real fruit juice. Each snack cup is packed in convenient, easy-to-carry, plastic cups.",
+                        "price": 6.32,
+                        "imagelink": "assets/img/products/snacks-9.jpeg",
+                        "rating": "4",
+                        "stock": "150",
+                        "category": "Pantry Items",
+                        "subcategory": "Snacks"
+                    },
+                    {
+                        "name": "(12 cups) Dole Fruit Bowls Mandarin Oranges in 100% Fruit Juice",
+                        "description": "Enjoy the refreshing taste of all natural mandarin oranges in 100% real fruit juice.",
+                        "price": 6.18,
+                        "imagelink": "assets/img/products/snacks-10.jpeg",
+                        "rating": "4",
+                        "stock": "150",
+                        "category": "Pantry Items",
+                        "subcategory": "Snacks"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Perishables",
+        "subcategories": [
+            {
+                "name": "Bread and Bakery",
+                "items": [
+                    {
+                        "name": "Sara Lee Original Artesano Bakery Bread, Thick Slices, 20 oz",
+                        "description": "Sliced thick with a mouthwateringly soft texture, Artesano transforms the routine into remarkable. With its rich flavor and distinctly creamy character, the flavors you love just taste better.",
+                        "price": 2.82,
+                        "imagelink": "assets/img/products/bread-and-bakery-1.jpeg",
+                        "rating": "5",
+                        "stock": "90",
+                        "category": "Perishables",
+                        "subcategory": "Bread and Bakery"
+                    },
+                    {
+                        "name": "Sara Lee Artesano Golden Wheat Bakery Bread, 20 oz",
+                        "description": "Made with a touch of honey, olive oil & sea salt.",
+                        "price": 2.82,
+                        "imagelink": "assets/img/products/bread-and-bakery-2.jpeg",
+                        "rating": "3",
+                        "stock": "30",
+                        "category": "Perishables",
+                        "subcategory": "Bread and Bakery"
+                    },
+                    {
+                        "name": "Alfaro's Original Artesano Bakery Bread, Thick Slices, 20 oz",
+                        "description": "Sliced thick with a dash of flour dusting and a mouthwateringly soft texture.",
+                        "price": 2.82,
+                        "imagelink": "assets/img/products/bread-and-bakery-3.jpeg",
+                        "rating": "5",
+                        "stock": "30",
+                        "category": "Perishables",
+                        "subcategory": "Bread and Bakery"
+                    },
+                    {
+                        "name": "New York Bakery Pre-Sliced Garlic Bread, 2 count, 14 oz",
+                        "description": "The big flavor of fresh, crushed garlic is in between every slice.",
+                        "price": 3.16,
+                        "imagelink": "assets/img/products/bread-and-bakery-4.jpeg",
+                        "rating": "4",
+                        "stock": "36",
+                        "category": "Perishables",
+                        "subcategory": "Bread and Bakery"
+                    },
+                    {
+                        "name": "New York Bakery Soft Pull Aparts Garlic Bread, 2 count, 12 oz",
+                        "description": "With 8 distinctive, hand-crafted rolls to a loaf and our signature garlic and herb spread reaching every crevice, each bite has an irresistible flavor and soft texture that everyone will enjoy.",
+                        "price": 3.16,
+                        "imagelink": "assets/img/products/bread-and-bakery-5.jpeg",
+                        "rating": "4",
+                        "stock": "12",
+                        "category": "Perishables",
+                        "subcategory": "Bread and Bakery"
+                    },
+                    {
+                        "name": "(2 pack) Betty Crocker Super Moist Red Velvet Cake Mix, 15.25 oz",
+                        "description": "Betty Crocker's super moist red velvet cake mix is made with no preservatives and no artificial flavors.",
+                        "price": 5.38,
+                        "imagelink": "assets/img/products/bread-and-bakery-6.png",
+                        "rating": "5",
+                        "stock": "30",
+                        "category": "Perishables",
+                        "subcategory": "Bread and Bakery"
+                    },
+                    {
+                        "name": "Cheesecake Factory Cheesecake Mix, Salted Caramel, 12 oz",
+                        "description": "The Cheesecake Factory at Home Salted Caramel Premium Cheesecake Mix is a creamy, salted caramel cheesecake on a graham cracker crust with salted caramel topping.",
+                        "price": 4.24,
+                        "imagelink": "assets/img/products/bread-and-bakery-7.jpeg",
+                        "rating": "1",
+                        "stock": "3",
+                        "category": "Perishables",
+                        "subcategory": "Bread and Bakery"
+                    },
+                    {
+                        "name": "(6 pack) Duncan Hines Perfect Size, Cookies & Cream Cake, 10.16 oz",
+                        "description": "The Duncan Hines Perfect Size for 1 platform is a delicious lineup of baked goods which you can bake up in a mug in about a minute!",
+                        "price": 21.78,
+                        "imagelink": "assets/img/products/bread-and-bakery-8.jpeg",
+                        "rating": "2",
+                        "stock": "30",
+                        "category": "Perishables",
+                        "subcategory": "Bread and Bakery"
+                    },
+                    {
+                        "name": "Nutrisystem D Blueberry Muffins, 2 oz, 4 count",
+                        "description": "For a delicious breakfast that will help keep blood sugar levels steady, try a Nutrisystem D Soft-Baked Blueberry Muffin.",
+                        "price": 5.84,
+                        "imagelink": "assets/img/products/bread-and-bakery-9.jpeg",
+                        "rating": "4",
+                        "stock": "30",
+                        "category": "Perishables",
+                        "subcategory": "Bread and Bakery"
+                    },
+                    {
+                        "name": "(2 pack) Mama Mary's Original Pizza Crusts, 2 count",
+                        "description": "Create. Bake. Enjoy. Pizza crusts bake in 7 to 10 minutes!",
+                        "price": 6.75,
+                        "imagelink": "assets/img/products/bread-and-bakery-10.jpeg",
+                        "rating": "3",
+                        "stock": "14",
+                        "category": "Perishables",
+                        "subcategory": "Bread and Bakery"
+                    },
+                    {
+                        "name": "(2 Pack) Mama Mary's Thin & Crispy Pizza Crusts, 3 count",
+                        "description": "Create. Bake. Enjoy. Pizza crusts bake in 7 to 9 minutes!",
+                        "price": 4.82,
+                        "imagelink": "assets/img/products/bread-and-bakery-11.jpeg",
+                        "rating": "4",
+                        "stock": "350",
+                        "category": "Perishables",
+                        "subcategory": "Bread and Bakery"
+                    },
+                    {
+                        "name": "(3 pack) Great Value Graham Cracker Ready Pie Crust, 6 oz",
+                        "description": "Great Value Graham Pie Crust is a delicious addition to your favorite desserts. It's traditionally used with cheesecake filling, but you can also substitute this product for pastry in fruit pies.",
+                        "price": 4.29,
+                        "imagelink": "assets/img/products/bread-and-bakery-12.jpeg",
+                        "rating": "4",
+                        "stock": "350",
+                        "category": "Perishables",
+                        "subcategory": "Bread and Bakery"
+                    }
+                ]
+            },
+            {
+                "name": "Cheese",
+                "items": [
+                    {
+                        "name": "Kraft 100% Grated Parmesan Cheese Shaker, 16 oz bottle",
+                        "description": "Kraft 100% Grated Parmesan Cheese - Enhance your pastas, pizzas, seafood, salads and more with the bold taste of Kraft grated cheese. ",
+                        "price": 6.98,
+                        "imagelink": "assets/img/products/cheese-1.jpeg",
+                        "rating": "5",
+                        "stock": "20",
+                        "category": "Perishables",
+                        "subcategory": "Cheese"
+                    },
+                    {
+                        "name": "Great Value Finely Shredded Fiesta Blend Cheese, 8 oz",
+                        "description": "Great Value Finely Shredded Fiesta Blend Cheese brings delicious flavors to your favorite dishes.",
+                        "price": 2.22,
+                        "imagelink": "assets/img/products/cheese-2.jpeg",
+                        "rating": "5",
+                        "stock": "30",
+                        "category": "Perishables",
+                        "subcategory": "Cheese"
+                    },
+                    {
+                        "name": "Great Value Grated Italian Style Blend Cheese, 8 oz",
+                        "description": "This flavorful blend of Parmesan and Romano cheeses is versatile enough to enhance everything from mac ‘n cheese to cheesy broccoli tots to basic spaghetti and meatballs.",
+                        "price": 3.18,
+                        "imagelink": "assets/img/products/cheese-3.jpeg",
+                        "rating": "2",
+                        "stock": "3",
+                        "category": "Perishables",
+                        "subcategory": "Cheese"
+                    }
+                ]
+            },
+            {
+                "name": "Dairy and Eggs",
+                "items": [
+                    {
+                        "name": "Almond Breeze Unsweetened Almond Milk, 32 fl. oz",
+                        "description": "Almond Breeze is a delicious way to be good to yourself! Made with real almonds, Almond Breeze is a tasty, creamy alternative to dairy or soymilk.",
+                        "price": 3.32,
+                        "imagelink": "assets/img/products/dairy-and-eggs-1.png",
+                        "rating": "4",
+                        "stock": "320",
+                        "category": "Perishables",
+                        "subcategory": "Dairy and Eggs"
+                    },
+                    {
+                        "name": "Silk Vanilla Almond Milk, 8 fl. oz, 6 count",
+                        "description": "At 90 sensible calories a serving, how can you not enjoy the creamy goodness of Silk Vanilla Non-Dairy Almondmilk?",
+                        "price": 6.42,
+                        "imagelink": "assets/img/products/dairy-and-eggs-2.jpeg",
+                        "rating": "2",
+                        "stock": "0",
+                        "category": "Perishables",
+                        "subcategory": "Dairy and Eggs"
+                    },
+                    {
+                        "name": "Great Value Large White Eggs Value Pack, 36 count",
+                        "description": "Great Value Large White Eggs are a delicious way to get in your daily recommended amount of protein for a healthy lifestyle.",
+                        "price": 5.00,
+                        "imagelink": "assets/img/products/dairy-and-eggs-3.jpeg",
+                        "rating": "4",
+                        "stock": "60",
+                        "category": "Perishables",
+                        "subcategory": "Dairy and Eggs"
+                    },
+                    {
+                        "name": "Great Value Large White Eggs, 12 count",
+                        "description": "Great Value Large White Eggs are a delicious way to get in your daily recommended amount of protein for a healthy lifestyle.",
+                        "price": 2.50,
+                        "imagelink": "assets/img/products/dairy-and-eggs-4.jpeg",
+                        "rating": "1",
+                        "stock": "3",
+                        "category": "Perishables",
+                        "subcategory": "Dairy and Eggs"
+                    }
+                ]
+            },
+            {
+                "name": "Frozen Foods",
+                "items": [
+                    {
+                        "name": "Sam's Choice Cheesecake Sampler, 28 oz, 8 count",
+                        "description": "This pack contains eight pre-cut slices, two of each kind, of classic cheesecake flavors including New York Style, Lemon Swirl, Strawberry Swirl, and Turtle.",
+                        "price": 8.47,
+                        "imagelink": "assets/img/products/frozen-foods-1.jpeg",
+                        "rating": "5",
+                        "stock": "50",
+                        "category": "Perishables",
+                        "subcategory": "Frozen Foods"
+                    },
+                    {
+                        "name": "Healthy Choice Simply Steamers, Grilled Chicken Alfredo, 9.15 oz",
+                        "description": "Savor a quick and delicious culinary-inspired all natural meal steamed from the microwave anytime with this entree made with crisp vegetables, protein, and flavorful sauce in every bite.",
+                        "price": 2.98,
+                        "imagelink": "assets/img/products/frozen-foods-2.jpeg",
+                        "rating": "3",
+                        "stock": "20",
+                        "category": "Perishables",
+                        "subcategory": "Frozen Foods"
+                    },
+                    {
+                        "name": "Healthy Choice Cafe Steamers, Asian Inspired Beef Teriyaki, 9.5 oz",
+                        "description": "Savor a quick and delicious meal featuring true steaming technology from the microwave anytime with this entree made with crisp vegetables, tender proteins, and flavorful sauce in every bite.",
+                        "price": 2.62,
+                        "imagelink": "assets/img/products/frozen-foods-3.jpeg",
+                        "rating": "1",
+                        "stock": "2",
+                        "category": "Perishables",
+                        "subcategory": "Frozen Foods"
+                    },
+                    {
+                        "name": "DiGiorno Original Rising Crust Supreme Frozen Pizza, 31.5 oz",
+                        "description": "The self-rising crust has big, juicy toppings that are paired with our signature sauce for the fresh-baked taste of delivery pizza in your very own home.",
+                        "price": 5.00,
+                        "imagelink": "assets/img/products/frozen-foods-4.jpeg",
+                        "rating": "1",
+                        "stock": "2",
+                        "category": "Perishables",
+                        "subcategory": "Frozen Foods"
+                    },
+                    {
+                        "name": "Great Value Frozen Spicy Breaded Chicken Sandwiches, 22.8 oz, 4 count",
+                        "description": "Great Value Breaded Chicken Sandwiches are made with spicy breaded chicken breast fillets with rib meat served on a corn-dusted bun.",
+                        "price": 5.00,
+                        "imagelink": "assets/img/products/frozen-foods-5.jpeg",
+                        "rating": "3",
+                        "stock": "0",
+                        "category": "Perishables",
+                        "subcategory": "Frozen Foods"
+                    },
+                    {
+                        "name": "Great Value Frozen Florentine Mini Quiche, 9 oz, 12 count",
+                        "description": "Great Value Florentine Mini Quiche is made with spinach and a creamy cheese blend that is wrapped in a traditional quiche crust.",
+                        "price": 5.00,
+                        "imagelink": "assets/img/products/frozen-foods-6.jpeg",
+                        "rating": "4",
+                        "stock": "30",
+                        "category": "Perishables",
+                        "subcategory": "Frozen Foods"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Produce",
+        "subcategories": [
+            {
+                "name": "Fruits",
+                "items": [
+                    {
+                        "name": "Gold Nugget Mandarins, 3 lb bag",
+                        "description": "Sweet, juicy and seedless mandarins/clementines",
+                        "price": 0.29,
+                        "imagelink": "assets/img/products/fruits-1.jpeg",
+                        "rating": "4",
+                        "stock": "250",
+                        "category": "Produce",
+                        "subcategory": "Fruits"
+                    },
+                    {
+                        "name": "Green Apple Slices, 32 oz",
+                        "description": "Apples with added calcium ascorbate.",
+                        "price": 0.19,
+                        "imagelink": "assets/img/products/fruits-2.jpeg",
+                        "rating": "5",
+                        "stock": "250",
+                        "category": "Produce",
+                        "subcategory": "Fruits"
+                    },
+                    {
+                        "name": "Freshness Guaranteed Fruit Tray, 48 oz",
+                        "description": "Contains pineapple, mango, cantaloupe, red grapes, red and green apples arranged to perfection in a partitioned tray with a transparent lid.",
+                        "price": 1.98,
+                        "imagelink": "assets/img/products/fruits-3.jpeg",
+                        "rating": "5",
+                        "stock": "100",
+                        "category": "Produce",
+                        "subcategory": "Fruits"
+                    },
+                    {
+                        "name": "Freshness Guaranteed Seasonal Fruit Blend, 32 oz",
+                        "description": "Contains cantaloupe, red grapes, pineapple and honeydew arranged in a transparent tray with a lid.",
+                        "price": 3.98,
+                        "imagelink": "assets/img/products/fruits-4.jpeg",
+                        "rating": "3",
+                        "stock": "150",
+                        "category": "Produce",
+                        "subcategory": "Fruits"
+                    },
+                    {
+                        "name": "Seasonal Fruit Blend, 10 oz",
+                        "description": "Contains red grapes, cantaloupe, pineapple, honeydew and watermelon arranged in a transparent tray with a lid.",
+                        "price": 0.98,
+                        "imagelink": "assets/img/products/fruits-5.jpeg",
+                        "rating": "4",
+                        "stock": "300",
+                        "category": "Produce",
+                        "subcategory": "Fruits"
+                    },
+                    {
+                        "name": "Seasonal Trio Blend, 32 oz",
+                        "description": "Contains cantaloupe, red grapes and mangoes arranged in different partitions in a transparent tray with a lid.",
+                        "price": 0.98,
+                        "imagelink": "assets/img/products/fruits-6.jpeg",
+                        "rating": "4",
+                        "stock": "300",
+                        "category": "Produce",
+                        "subcategory": "Fruits"
+                    },
+                    {
+                        "name": "Pineapple",
+                        "description": "Perfectly ripened, sweet and juicy.",
+                        "price": 0.98,
+                        "imagelink": "assets/img/products/fruits-7.jpeg",
+                        "rating": "4",
+                        "stock": "300",
+                        "category": "Produce",
+                        "subcategory": "Fruits"
+                    },
+                    {
+                        "name": "Freshness Guaranteed Apple Tray with Caramel Sauce, 42 oz",
+                        "description": "Contains red and green apple slices and red grapes, along with a thick caramel sauce to dip these fruits in.",
+                        "price": 5.98,
+                        "imagelink": "assets/img/products/fruits-8.jpeg",
+                        "rating": "5",
+                        "stock": "100",
+                        "category": "Produce",
+                        "subcategory": "Fruits"
+                    },
+                    {
+                        "name": "Freshness Guaranteed Pineapple Berry Blend, 16 oz",
+                        "description": "Contains juicy strawberries, red grapes and pre-cut chunks of pineapples, brought together in a tray with their freshness guaranteed.",
+                        "price": 1.50,
+                        "imagelink": "assets/img/products/fruits-9.jpeg",
+                        "rating": "4",
+                        "stock": "150",
+                        "category": "Produce",
+                        "subcategory": "Fruits"
+                    },
+                    {
+                        "name": "Pomegranate Arils, 8 oz",
+                        "description": "Pomegranate Seeds.",
+                        "price": 2.98,
+                        "imagelink": "assets/img/products/fruits-10.jpeg",
+                        "rating": "4",
+                        "stock": "100",
+                        "category": "Produce",
+                        "subcategory": "Fruits"
+                    },
+                    {
+                        "name": "Oranges, 4 lb",
+                        "description": "Fresh, sweet oranges.",
+                        "price": 3.49,
+                        "imagelink": "assets/img/products/fruits-11.jpeg",
+                        "rating": "4",
+                        "stock": "300",
+                        "category": "Produce",
+                        "subcategory": "Fruits"
+                    },
+                    {
+                        "name": "Canary Melon",
+                        "description": "This melon has a distinctively sweet flavor that is slightly tangier than a honeydew melon.",
+                        "price": 0.98,
+                        "imagelink": "assets/img/products/fruits-12.jpeg",
+                        "rating": "5",
+                        "stock": "200",
+                        "category": "Produce",
+                        "subcategory": "Fruits"
+                    }
+                ]
+            },
+            {
+                "name": "Vegetables",
+                "items": [
+                    {
+                        "name": "Great Value Broccoli Florets, 32 oz",
+                        "description": "Great Value Broccoli Florets have a vibrant green color and a fresh from the farm flavor.",
+                        "price": 2.62,
+                        "imagelink": "assets/img/products/veggies-1.jpeg",
+                        "rating": "5",
+                        "stock": "300",
+                        "category": "Produce",
+                        "subcategory": "Vegetables"
+                    },
+                    {
+                        "name": "Great Value Mixed Vegetables, 32 oz",
+                        "description": "Great Value Mixed Vegetables come with a blend of carrots, green beans, corn and peas.",
+                        "price": 2.22,
+                        "imagelink": "assets/img/products/veggies-2.jpeg",
+                        "rating": "5",
+                        "stock": "200",
+                        "category": "Produce",
+                        "subcategory": "Vegetables"
+                    },
+                    {
+                        "name": "Great Value Brussels Sprouts, 12 oz",
+                        "description": "Great Value Brussels Sprouts have a sweet, cabbage like flavor and a delicious tender texture.",
+                        "price": 1.27,
+                        "imagelink": "assets/img/products/veggies-3.jpeg",
+                        "rating": "5",
+                        "stock": "300",
+                        "category": "Produce",
+                        "subcategory": "Vegetables"
+                    },
+                    {
+                        "name": "Great Value Chopped Spinach, 12 oz",
+                        "description": "Great Value Chopped Spinach has a vibrant green color and a fresh from the farm flavor.",
+                        "price": 1.00,
+                        "imagelink": "assets/img/products/veggies-4.jpeg",
+                        "rating": "5",
+                        "stock": "150",
+                        "category": "Produce",
+                        "subcategory": "Vegetables"
+                    },
+                    {
+                        "name": "Great Value Pepper & Onion Blend, 20 oz",
+                        "description": "This bag of frozen yellow onions, red bell peppers and green bell peppers makes an excellent addition to any hot lunch or dinner, and they’re fresh frozen to preserve all of their flavor and texture.",
+                        "price": 2.33,
+                        "imagelink": "assets/img/products/veggies-5.jpeg",
+                        "rating": "5",
+                        "stock": "150",
+                        "category": "Produce",
+                        "subcategory": "Vegetables"
+                    },
+                    {
+                        "name": "Great Value Whole Kernel Corn, 12 oz",
+                        "description": "Great Value Whole Kernel Corn has a vibrant yellow color and a fresh from the farm flavor.",
+                        "price": 0.84,
+                        "imagelink": "assets/img/products/veggies-6.jpeg",
+                        "rating": "4",
+                        "stock": "150",
+                        "category": "Produce",
+                        "subcategory": "Vegetables"
+                    },
+                    {
+                        "name": "Great Value Frozen Broccoli & Cauliflower, 12 oz",
+                        "description": "This bag of frozen vegetables contains broccoli and cauliflower stems and tops that make an excellent addition to any hot lunch or dinner, and they’re fresh frozen to preserve all of their flavor and texture.",
+                        "price": 1.00,
+                        "imagelink": "assets/img/products/veggies-7.jpeg",
+                        "rating": "4",
+                        "stock": "50",
+                        "category": "Produce",
+                        "subcategory": "Vegetables"
+                    },
+                    {
+                        "name": "Great Value Sweet Peas, 12 oz",
+                        "description": "Great Value Sweet Peas are tender, healthy and delicious. These sweet peas are packed with rich flavor and add a pop to any dish with their vibrant green color.",
+                        "price": 0.84,
+                        "imagelink": "assets/img/products/veggies-8.jpeg",
+                        "rating": "5",
+                        "stock": "150",
+                        "category": "Produce",
+                        "subcategory": "Vegetables"
+                    }
+                ]
+            }
+        ]
+    }
+]

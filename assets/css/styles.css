@@ -260,7 +260,16 @@ section.slider-container {
 .slider-container .card-product .img-wrap {
     text-align: center;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
+}
+
+.slider-container .card-product .info-wrap h6.title {
+    font-size: 14px;
+    text-align: left;
+}
+
+.slider-container .card-product .info-wrap a {
+    color: #32325d;
 }
 
 /* === Home Page > Welcome Block === */

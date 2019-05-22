@@ -55,7 +55,8 @@ var prev_location
 function getProductData($scope) {
     $.ajax({
         type: 'GET',
-        url: 'https://webmppcapstone.blob.core.windows.net/data/itemsdata.json',
+        // url: 'https://webmppcapstone.blob.core.windows.net/data/itemsdata.json',
+        url: 'itemsdata.json',
         contentType: "application/json",
         dataType: "json",
         error: function () {

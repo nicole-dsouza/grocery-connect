@@ -19,16 +19,16 @@
     </div>
     <div class="product-slider container-wide">
         <div class="col-md-3" ng-repeat="item in slider_items" ng-click="productPage(item.name)">
-            <figure class="card card-sm card-product">
+            <div class="card card-sm card-product">
                 <div class="img-wrap d-flex align-items-center">
                     <img src="{{ item.imagelink }}">
                 </div>
-                <figcaption class="info-wrap text-center">
-                    <h6 class="title text-truncate">
+                <div class="info-wrap text-center">
+                    <h6 class="title">
                         <a href="">{{ item.name }}</a>
                     </h6>
-                </figcaption>
-            </figure> <!-- card // -->
+                </div>
+            </div> <!-- card // -->
         </div> <!-- col // -->
     </div>
 </section>
@@ -65,6 +65,8 @@
 
     $(document).ready(function () {
 
+        var heights = [];
+
         // product slider
         function loadSlider() {
             if (sliderDataLoad === true) {
@@ -76,6 +78,15 @@
                     speed: 300, // separate, not related to seconds
                     autoplay: true,
                     autoplaySpeed: 3000, // 3 seconds
+                });
+                $('.product-slider').on('setPosition', function (event, slick) {
+                    $('.card-product').each(function (i, obj) {
+                        heights.push($(this).height());
+                    });
+                    var max = heights.reduce(function (a, b) {
+                        return Math.max(a, b);
+                    });
+                    $(".card-product").height(max);
                 });
             } else {
                 setTimeout(loadSlider, 1000);
